@@ -313,3 +313,38 @@ video {
   margin-bottom: 24px;
   border: 1px solid #1f2937;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* الصور تتكيف مع الشاشة */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* الفيديوهات تتكيف مع الشاشة */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* الحاويات الأساسية */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* النصوص */
+p, h1, h2, h3 {
+    padding: 5px;
+}
+
+/* القوائم */
+ul {
+    padding-left: 20px;
+}
